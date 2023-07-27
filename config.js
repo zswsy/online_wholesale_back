@@ -1,0 +1,13 @@
+//加密盐length
+const BCRYPTJSSECRETKEY=10
+
+//token的解密配置
+const TOKENSCORETKEY='ONLINE_WHOLESALE'
+const EXPIRESIN='30d'
+
+
+module.exports={
+    BCRYPTJSSECRETKEY,
+    TOKENSCORETKEY,
+    EXPIRESIN
+}
